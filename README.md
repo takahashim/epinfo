@@ -1,6 +1,6 @@
-# Epinfo
+# epinfo
 
-TODO: Write a gem description
+epinfo is a command line tool to show EPUB document information.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ epinfo some-epub-file.epub
 
 ## Contributing
 
@@ -27,3 +27,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Author
+
+Masayoshi Takahashi (@takahashim)
