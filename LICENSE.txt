@@ -1,4 +1,4 @@
-Copyright (c) 2013 takahashim
+Copyright (c) 2013 Masayoshi Takahashi (@takahashim)
 
 MIT License
 
