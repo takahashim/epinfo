@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["maki@rubycolor.org"]
   gem.description   = %q{command line tool to show epub information}
   gem.summary       = %q{command line tool to show epub information}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/takahashim/epinfo"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
