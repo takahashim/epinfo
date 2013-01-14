@@ -5,11 +5,11 @@ require 'epinfo/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "epinfo"
-  gem.version       = Epinfo::VERSION
+  gem.version       = EPInfo::VERSION
   gem.authors       = ["takahashim"]
   gem.email         = ["maki@rubycolor.org"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{command line tool to show epub information}
+  gem.summary       = %q{command line tool to show epub information}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
