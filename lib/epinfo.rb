@@ -17,6 +17,10 @@ class EPInfo
         puts opts
         exit
       end
+      opts.on('-v', '--version', 'show version information') do
+        puts EPInfo::VERSION
+        exit
+      end
     end
 
     begin
