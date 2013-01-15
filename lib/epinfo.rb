@@ -13,7 +13,7 @@ class EPInfo
     opts = OptionParser.new do |opts|
       opts.banner = "Usage: epinfo [filename]\n"
 
-      opts.on('-h', '--help', 'Display this screen') do
+      opts.on('-h', '--help', 'show this screen') do
         puts opts
         exit
       end
