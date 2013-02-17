@@ -46,12 +46,12 @@ class EPInfo
 
     return <<-EOB
 titles: #{book.titles.join()}
-creators: #{book.creators.map{|c| "#{c.name}(#{c.role})"}.join(', ')}
+creators: #{book.creators.map{|c| "#{c.name}(#{c.role||'-'})"}.join(', ')}
 subjects: #{book.subjects.join(", ")}
 description: #{book.description}
 publisher: #{book.publisher}
-contributors: #{book.contributors.map{|c| "#{c.name}(#{c.role})"}.join(', ')}
-dates: #{book.dates.map{|d| "#{d.date_str}(#{d.event})"}.join(', ')}
+contributors: #{book.contributors.map{|c| "#{c.name}(#{c.role||'-'})"}.join(', ')}
+dates: #{book.dates.map{|d| "#{d.date_str}(#{d.event||'-'})"}.join(', ')}
 identifiers: #{book.identifiers.map(&:identifier).join(', ')}
 epub_version: #{book.version}
 source: #{book.source}
