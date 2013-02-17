@@ -53,6 +53,7 @@ publisher: #{book.publisher}
 contributors: #{book.contributors.map{|c| "#{c.name}(#{c.role})"}.join(', ')}
 dates: #{book.dates.map{|d| "#{d.date_str}(#{d.event})"}.join(', ')}
 identifiers: #{book.identifiers.map(&:identifier).join(', ')}
+epub_version: #{book.version}
 source: #{book.source}
 languages: #{book.languages.join(', ')}
 rights: #{book.rights}
